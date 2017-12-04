@@ -8,7 +8,7 @@ Updated for Unity 2017.2.
 
 Package download [here](https://github.com/cecarlsen/PeppersGhostStage/raw/master/PeppersGhostStage.unitypackage).
 
-The project uses Keijiro Takahashi's [NeoLowMan](https://github.com/keijiro/NeoLowMan)
+The project uses Keijiro Takahashi's [NeoLowMan](https://github.com/keijiro/NeoLowMan).
 
 
 License
