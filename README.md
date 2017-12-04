@@ -4,7 +4,9 @@ Peppers Ghost Stage
 Peppers Ghost Stage model with world measures and reflective foil. 
 Updated for Unity 2017.2.
 
-![Screenshot](images/PeppersGhostScreenshot.jpg)
+![Screenshot](https://github.com/cecarlsen/PeppersGhostStage/raw/master/Images/PeppersGhostScreenshot.jpg)
+
+Package download [here](https://github.com/cecarlsen/PeppersGhostStage/raw/master/PeppersGhostStage.unitypackage).
 
 The project uses Keijiro Takahashi's [NeoLowMan](https://github.com/keijiro/NeoLowMan)
 
