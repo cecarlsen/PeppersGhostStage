@@ -5,7 +5,7 @@
 
 using UnityEngine;
 
-public class DemoCamera : MonoBehaviour
+public class AutoDemoCamera : MonoBehaviour
 {
     [SerializeField] Transform _focusTransform;
     [SerializeField] float _distance = 8; // m
@@ -14,8 +14,7 @@ public class DemoCamera : MonoBehaviour
     [SerializeField] float _angleMax = 100f;
     [SerializeField] float _offsetY = 1.5f;
 
-
-    float _driveAngle;
+    float _driveAngle = -Mathf.PI * 0.5f;
 	
 	
     void Update()
