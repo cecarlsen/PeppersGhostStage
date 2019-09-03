@@ -3,33 +3,27 @@
     http://cec.dk
 */
 
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class DemoCamera : MonoBehaviour
 {
-    [SerializeField] Transform _forusTransform;
+    [SerializeField] Transform _focusTransform;
     [SerializeField] float _distance = 8; // m
     [SerializeField] float _cycleDuration = 4; // m
-    [SerializeField] float _angleRange = 75f;
+    [SerializeField] float _angleMin = 0;
+    [SerializeField] float _angleMax = 100f;
     [SerializeField] float _offsetY = 1.5f;
 
 
-    float _angle;
-
-
-	void Start()
-	{
-		
-	}
+    float _driveAngle;
 	
 	
     void Update()
 	{
-        _angle += ( Time.deltaTime * Mathf.PI * 2 ) / _cycleDuration;
-        float t = Mathf.Sin( _angle );
-        transform.position = _forusTransform.position + Quaternion.Euler( 0, t * _angleRange, 0 ) * Vector3.back * _distance + Vector3.up * _offsetY; 
-        transform.LookAt( _forusTransform );
+        _driveAngle += ( Time.deltaTime * Mathf.PI * 2 ) / _cycleDuration;
+        float t = Mathf.Sin( _driveAngle ) * 0.5f + 0.5f;
+        float angle = Mathf.Lerp( _angleMin, _angleMax, t );
+        transform.position = _focusTransform.position + Quaternion.Euler( 0, angle, 0 ) * Vector3.back * _distance + Vector3.up * _offsetY; 
+        transform.LookAt( _focusTransform );
 	}
 }
