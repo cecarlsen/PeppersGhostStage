@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.unity.ide.vscode": "1.0.7",
+    "com.unity.ide.vscode": "1.1.2",
     "com.unity.postprocessing": "2.1.7",
     "com.unity.probuilder": "4.1.0",
     "com.unity.recorder": "2.0.3-preview.1",
