@@ -42,3 +42,16 @@ Update Mode: updateDependencies
 
 The following packages were updated:
   com.unity.ide.vscode from version 1.0.7 to 1.1.2
+
+=== Fri Feb  4 10:15:49 2022
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were added:
+  com.unity.ide.visualstudio@2.0.12
+The following packages were updated:
+  com.unity.ide.vscode from version 1.1.2 to 1.2.4
+  com.unity.postprocessing from version 2.1.7 to 3.2.0
+  com.unity.probuilder from version 4.1.0 to 5.0.3
+  com.unity.recorder from version 2.0.3-preview.1 to 3.0.3
