@@ -4,7 +4,7 @@ Peppers Ghost Stage
 ![Screenshot](https://github.com/cecarlsen/PeppersGhostStage/raw/master/Images/PeppersGhostScreenshot.jpg)
 
 Peppers Ghost stage model with world measures and reflective foil. 
-Updated for Unity 2018.2.
+Updated for Unity 6000.0.44f1.
 
 Package download [here](https://github.com/cecarlsen/PeppersGhostStage/raw/master/PeppersGhostStage.unitypackage).
 
@@ -14,7 +14,7 @@ The project uses Keijiro Takahashi's [NeoLowMan](https://github.com/keijiro/NeoL
 License
 -------
 
-Copyright (C) 2017 Carl Emil Carlsen
+Copyright (C) 2017-2025 Carl Emil Carlsen
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in

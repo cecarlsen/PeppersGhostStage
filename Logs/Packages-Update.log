@@ -55,3 +55,19 @@ The following packages were updated:
   com.unity.postprocessing from version 2.1.7 to 3.2.0
   com.unity.probuilder from version 4.1.0 to 5.0.3
   com.unity.recorder from version 2.0.3-preview.1 to 3.0.3
+
+=== Mon Apr  7 14:48:40 2025
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were added:
+  com.unity.ai.navigation@2.0.6
+  com.unity.modules.accessibility@1.0.0
+  com.unity.multiplayer.center@1.0.0
+The following packages were updated:
+  com.unity.ide.visualstudio from version 2.0.12 to 2.0.22
+  com.unity.postprocessing from version 3.2.0 to 3.4.0
+  com.unity.probuilder from version 5.0.3 to 6.0.4
+  com.unity.recorder from version 3.0.3 to 5.1.2
+  com.unity.ugui from version 1.0.0 to 2.0.0

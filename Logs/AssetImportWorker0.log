@@ -1,30 +1,29 @@
-Unity Editor version:    2021.2.8f1 (d0e5f0a7b06a)
-Branch:                  2021.2/staging
-Build type:              Release
-Batch mode:              YES
-macOS version:           Version 12.1 (Build 21C52)
-Darwin version:          21.2.0
-Architecture:            arm64
-Running under Rosetta:   NO
-Available memory:        65536 MB
 Using pre-set license
-Pro License: NO
+Built from '6000.0/release' branch; Version is '6000.0.44f1 (101c91f3a8fb) revision 1055889'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'en' Physical Memory: 31864 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-/Applications/Unity/Hub/Editor/2021.2.8f1/Unity.app/Contents/MacOS/Unity
+C:\Program Files\Unity\Hub\Editor\6000.0.44f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-/Users/cec/Repos/PeppersGhostStage
+C:/Users/ce/Repos/PeppersGhostStage
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55674
-Successfully changed project path to: /Users/cec/Repos/PeppersGhostStage
-/Users/cec/Repos/PeppersGhostStage
+50529
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Users/ce/Repos/PeppersGhostStage
+C:/Users/ce/Repos/PeppersGhostStage
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -46,6 +45,8 @@ Successfully changed project path to: /Users/cec/Repos/PeppersGhostStage
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
     "memorysetup-temp-allocator-size-background-worker=32768"
     "memorysetup-temp-allocator-size-job-worker=262144"
     "memorysetup-temp-allocator-size-preload-manager=33554432"
@@ -53,118 +54,462 @@ Successfully changed project path to: /Users/cec/Repos/PeppersGhostStage
     "memorysetup-temp-allocator-size-audio-worker=65536"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 20.54 ms, found 2 plugins.
+Player connection [11336]  Target information:
+
+Player connection [11336]  * "[IP] 192.168.50.120 [Port] 0 [Flags] 2 [Guid] 3051906605 [EditorId] 3051906605 [Version] 1048832 [Id] WindowsEditor(7,Q58) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [11336] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [11336] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2.20 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2021.2.8f1 (d0e5f0a7b06a)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.2.8f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/cec/Repos/PeppersGhostStage/Assets
-GfxDevice: creating device client; threaded=0; jobified=0
- preferred device: Apple M1 Max (high power)
-Metal devices available: 1
-0: Apple M1 Max (high power)
-Using device Apple M1 Max (high power)
-Initializing Metal device caps: Apple M1 Max
+Initialize engine version: 6000.0.44f1 (101c91f3a8fb)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ce/Repos/PeppersGhostStage/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 Ti (ID=0x2782)
+    Vendor:   NVIDIA
+    VRAM:     11996 MB
+    Driver:   32.0.15.6109
 Initialize mono
-Mono path[0] = '/Applications/Unity/Hub/Editor/2021.2.8f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Hub/Editor/2021.2.8f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
-Mono config path = '/Applications/Unity/Hub/Editor/2021.2.8f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56201
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56148
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Hub/Editor/2021.2.8f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001876 seconds.
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 20.01 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002943 seconds.
+- Loaded All Assemblies, in  0.306 seconds
+Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Completed reload, in  0.335 seconds
-Domain Reload Profiling:
-	ReloadAssembly (335ms)
-		BeginReloadAssembly (34ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (0ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (252ms)
-			LoadAssemblies (33ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (67ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (18ms)
-			SetupLoadedEditorAssemblies (141ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (20ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (90ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
-				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (0ms)
-Platform modules already initialized, skipping
-Registering precompiled user dll's ...
-Registered in 0.000260 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.17 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.441 seconds
-Domain Reload Profiling:
-	ReloadAssembly (441ms)
-		BeginReloadAssembly (57ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (329ms)
-			LoadAssemblies (26ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (81ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (172ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (29ms)
-				ProcessInitializeOnLoadAttributes (126ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
-Platform modules already initialized, skipping
+- Finished resetting the current domain, in  0.264 seconds
+Domain Reload Profiling: 569ms
+	BeginReloadAssembly (98ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (136ms)
+		LoadAssemblies (97ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (134ms)
+			TypeCache.Refresh (133ms)
+				TypeCache.ScanAssembly (123ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (265ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (231ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (122ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
 ========================================================================
 Worker process is ready to serve import requests
-Launching external process: /Applications/Unity/Hub/Editor/2021.2.8f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.18 ms, found 2 plugins.
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.428 seconds
+Refreshing native plugins compatible for Editor in 1.28 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-PeppersGhostStage
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.352 seconds
+Domain Reload Profiling: 778ms
+	BeginReloadAssembly (128ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (223ms)
+		LoadAssemblies (204ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (92ms)
+			TypeCache.Refresh (69ms)
+				TypeCache.ScanAssembly (60ms)
+			BuildScriptInfoCaches (21ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (353ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (280ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (142ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.80 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1548 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 75 unused Assets / (1.4 MB). Loaded Objects now: 2002.
-Memory consumption went from 157.4 MB to 156.0 MB.
-Total: 2.291875 ms (FindLiveObjects: 0.058167 ms CreateObjectMapping: 0.020000 ms MarkObjects: 1.937916 ms  DeleteObjects: 0.275333 ms)
+Unloading 125 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3569 unused Assets / (6.3 MB). Loaded Objects now: 4087.
+Memory consumption went from 117.1 MB to 110.8 MB.
+Total: 9.629900 ms (FindLiveObjects: 0.706300 ms CreateObjectMapping: 0.590000 ms MarkObjects: 5.776800 ms  DeleteObjects: 2.556500 ms)
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 38961.269088 seconds.
+  Time since last request: 6451.061280 seconds.
+  path: Assets/PeppersGhostStage/LICENSE.txt
+  artifactKey: Guid(66ddc1330fed944998165c067702cbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PeppersGhostStage/LICENSE.txt using Guid(66ddc1330fed944998165c067702cbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e7e6ed6cceeef7c65771a986026fadb') in 0.0236345 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.512101 seconds.
+  path: Assets/PeppersGhostStage/LICENSE.txt
+  artifactKey: Guid(66ddc1330fed944998165c067702cbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PeppersGhostStage/LICENSE.txt using Guid(66ddc1330fed944998165c067702cbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3121ab4e6e6e4942494d6ae840606fdd') in 0.000732 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.942357 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c391582d739b6e62a5220f35cbb167ac') in 0.0003824 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.193043 seconds.
+  path: Assets/PeppersGhostStage/Base/Materials/Default.mat
+  artifactKey: Guid(b01e5bba785d44847a36f9d417c72ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PeppersGhostStage/Base/Materials/Default.mat using Guid(b01e5bba785d44847a36f9d417c72ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a642950ada423a23f56e4538c6f2fa0') in 0.1825523 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001577 seconds.
+  path: Assets/PeppersGhostStage/Base/Materials/WhiteCanvas.mat
+  artifactKey: Guid(d35ee3226166a59419e41d61059c1e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PeppersGhostStage/Base/Materials/WhiteCanvas.mat using Guid(d35ee3226166a59419e41d61059c1e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ecae28499278b01c675372d8580bb9c') in 0.0074724 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002639 seconds.
+  path: Assets/PeppersGhostStage/Base/Materials/TableSurface.mat
+  artifactKey: Guid(82934e9ab29074afda72415591dc0b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PeppersGhostStage/Base/Materials/TableSurface.mat using Guid(82934e9ab29074afda72415591dc0b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f8977d366b914cf202cae16d35edc27') in 0.0065829 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001972 seconds.
+  path: Assets/PeppersGhostStage/Base/Scripts/MirrorReflection.cs
+  artifactKey: Guid(1b494e99845164b40a02a84534a178b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PeppersGhostStage/Base/Scripts/MirrorReflection.cs using Guid(1b494e99845164b40a02a84534a178b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e1adc0d6b23f9ec5e3486abe39e610db') in 0.0002318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001291 seconds.
+  path: Assets/PeppersGhostStage/ThirdParty/NeoLowMan
+  artifactKey: Guid(64e0fa90ff2a0c5408a34bab6731062f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PeppersGhostStage/ThirdParty/NeoLowMan using Guid(64e0fa90ff2a0c5408a34bab6731062f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e3780d43fa0705ec8f6c2a6bc028b7ed') in 0.0002166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001226 seconds.
+  path: Assets/PeppersGhostStage/Base
+  artifactKey: Guid(8f096751db06044f3a43ceb21d51b8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PeppersGhostStage/Base using Guid(8f096751db06044f3a43ceb21d51b8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84511358d1e6b6bbf0451af0a6c08115') in 0.0004286 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001781 seconds.
+  path: Assets/PeppersGhostStage/Base/Materials/Floor.mat
+  artifactKey: Guid(278d7a33d20074d5b8e41c3933de8c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PeppersGhostStage/Base/Materials/Floor.mat using Guid(278d7a33d20074d5b8e41c3933de8c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85c8bdd1607147fadd210613a69462e6') in 0.0818601 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002136 seconds.
+  path: Assets/PeppersGhostStage/ThirdParty/NeoLowMan/Neo.fbx
+  artifactKey: Guid(427d34d6970bfe74f99a26b6745ccbc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PeppersGhostStage/ThirdParty/NeoLowMan/Neo.fbx using Guid(427d34d6970bfe74f99a26b6745ccbc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4365455b438bb4defaa7175fec5eea3b') in 0.0750857 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001654 seconds.
+  path: Assets/PeppersGhostStage/Base/ProBuilder/Projector.prefab
+  artifactKey: Guid(ee59799dadb941a43adf503c0c4fbc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PeppersGhostStage/Base/ProBuilder/Projector.prefab using Guid(ee59799dadb941a43adf503c0c4fbc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f74d102c883b4eeb7adfb0967ded056') in 0.0032104 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001679 seconds.
+  path: Assets/PeppersGhostStage/Peppers Ghost Stage.prefab
+  artifactKey: Guid(12ab6920817d5463f86ab865ef4ae47c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PeppersGhostStage/Peppers Ghost Stage.prefab using Guid(12ab6920817d5463f86ab865ef4ae47c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '605f688078e4271efab04588eaee3b97') in 0.0113012 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 225
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001472 seconds.
+  path: Assets/PeppersGhostStage/ThirdParty/NeoLowMan/Materials
+  artifactKey: Guid(0596d9641837e89498be1acc3bda1b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PeppersGhostStage/ThirdParty/NeoLowMan/Materials using Guid(0596d9641837e89498be1acc3bda1b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '98ff40eacdf95fa07e20714c22c5458e') in 0.0002531 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001245 seconds.
+  path: Assets/PeppersGhostStage/Base/Materials
+  artifactKey: Guid(b63881185ad204c289a124cc49031519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PeppersGhostStage/Base/Materials using Guid(b63881185ad204c289a124cc49031519) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e137eaec58ad068bdf37ec009cf2967d') in 0.0002151 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004028 seconds.
+  path: Assets/PeppersGhostStage/PeppersGhost/LightingData.asset
+  artifactKey: Guid(0a3eb06dcd846ce4cae88e3b0f5c0731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PeppersGhostStage/PeppersGhost/LightingData.asset using Guid(0a3eb06dcd846ce4cae88e3b0f5c0731) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c4ad50ff80fa152bcacf44b2a798434') in 0.004491 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001925 seconds.
+  path: Assets/PeppersGhostStage/Base/Scripts/Resources/ReflectiveFoil.shader
+  artifactKey: Guid(8fcd0d7935a2845f4a3e5ed6f6c25e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PeppersGhostStage/Base/Scripts/Resources/ReflectiveFoil.shader using Guid(8fcd0d7935a2845f4a3e5ed6f6c25e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '179e19d6a7b9f764117264cf36ee4360') in 0.0003197 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001423 seconds.
+  path: Assets/PeppersGhostStage/ThirdParty
+  artifactKey: Guid(10d1870518f494d91927a1971a062991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PeppersGhostStage/ThirdParty using Guid(10d1870518f494d91927a1971a062991) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96a81ce48b26e69c78e5464cafb6988a') in 0.0002145 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001179 seconds.
+  path: Assets/PeppersGhostStage/Base/Textures
+  artifactKey: Guid(0df44d3e5aad14d3fac5619ac4f3a8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PeppersGhostStage/Base/Textures using Guid(0df44d3e5aad14d3fac5619ac4f3a8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e8b75e7e6218b1d29e70b4491f2fc1e7') in 0.0002159 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001996 seconds.
+  path: Assets/PeppersGhostStage/Base/Materials/ProjectorLightSource.mat
+  artifactKey: Guid(918c3dc71a3d0f54aa7c34aceb673a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PeppersGhostStage/Base/Materials/ProjectorLightSource.mat using Guid(918c3dc71a3d0f54aa7c34aceb673a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97eb654c6a928db26bcbc4c693c151d9') in 0.0067886 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002143 seconds.
   path: Assets/PeppersGhostStage/PeppersGhost.unity
   artifactKey: Guid(668d72c9c51244f1b9f9d8b94355831b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PeppersGhostStage/PeppersGhost.unity using Guid(668d72c9c51244f1b9f9d8b94355831b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca14098e84ed8ad13c1866a2c1059ca2') in 0.003032 seconds 
+Start importing Assets/PeppersGhostStage/PeppersGhost.unity using Guid(668d72c9c51244f1b9f9d8b94355831b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f72fa10909ecec5837b2794f3fc1a8b') in 0.0002374 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001422 seconds.
+  path: Assets/PeppersGhostStage/PeppersGhost
+  artifactKey: Guid(3ba3abba1afcaed478bc20c39fd4a670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PeppersGhostStage/PeppersGhost using Guid(3ba3abba1afcaed478bc20c39fd4a670) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f0ff308488eb76ae5acbda22ba5a4f7') in 0.0003315 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001797 seconds.
+  path: Assets/PeppersGhostStage/Base/Materials/Hardware.mat
+  artifactKey: Guid(9a9b4561c5b1eab4aa3bb1eaa3752929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PeppersGhostStage/Base/Materials/Hardware.mat using Guid(9a9b4561c5b1eab4aa3bb1eaa3752929) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a06e12ffc3ab220b669f686b8878b5d1') in 0.0067094 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002049 seconds.
+  path: Assets/PeppersGhostStage/ThirdParty/NeoLowMan/Materials/Body.mat
+  artifactKey: Guid(994fb69d8a342e2459e41d5ffce1e483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PeppersGhostStage/ThirdParty/NeoLowMan/Materials/Body.mat using Guid(994fb69d8a342e2459e41d5ffce1e483) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '101328faf85e8236cbe8939896a0419c') in 0.0064809 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002156 seconds.
+  path: Assets/PeppersGhostStage/Base/Materials/ProfileLightSource.mat
+  artifactKey: Guid(cc2ac0d0a8b1ca242bb55b94ff7b88c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PeppersGhostStage/Base/Materials/ProfileLightSource.mat using Guid(cc2ac0d0a8b1ca242bb55b94ff7b88c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d4a890708659eee10bff038904ab4cf') in 0.0029276 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002358 seconds.
+  path: Assets/PeppersGhostStage/Base/Textures/Noise.jpg
+  artifactKey: Guid(b7c780a8db817c041bdfe8fbdc827dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PeppersGhostStage/Base/Textures/Noise.jpg using Guid(b7c780a8db817c041bdfe8fbdc827dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a94cc41cbb23972390f0bcb9923c719') in 0.0110494 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001987 seconds.
+  path: Assets/PeppersGhostStage/Base/Materials/Metal.mat
+  artifactKey: Guid(b52160d144f474992afa01a745d189b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PeppersGhostStage/Base/Materials/Metal.mat using Guid(b52160d144f474992afa01a745d189b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '20aefeb46b0f45cce4175f35a7997748') in 0.0064899 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001518 seconds.
+  path: Assets/PeppersGhostStage/Base/ProBuilder
+  artifactKey: Guid(764218c8e11400643b0f32542641c3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PeppersGhostStage/Base/ProBuilder using Guid(764218c8e11400643b0f32542641c3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61e8c22122d69e9983291c763dc838d9') in 0.0002143 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001816 seconds.
+  path: Assets/PeppersGhostStage/Base/Materials/Fence.mat
+  artifactKey: Guid(c520d2416a3b1664baa34d34e4fa7f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PeppersGhostStage/Base/Materials/Fence.mat using Guid(c520d2416a3b1664baa34d34e4fa7f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be87ee52785f2c38efa4b98f649d7ad4') in 0.1229292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002200 seconds.
+  path: Assets/PeppersGhostStage/PeppersGhostSettings.lighting
+  artifactKey: Guid(0e360ce7bd22ca0419cb5bc1e0e96442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PeppersGhostStage/PeppersGhostSettings.lighting using Guid(0e360ce7bd22ca0419cb5bc1e0e96442) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7eec135dec29fbeda8e9338b64b1303a') in 0.0006539 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001790 seconds.
+  path: Assets/PeppersGhostStage/Base/Textures/PeppersTestImage.png
+  artifactKey: Guid(50f6ea9d76b674365815211087ca5613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PeppersGhostStage/Base/Textures/PeppersTestImage.png using Guid(50f6ea9d76b674365815211087ca5613) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a72eaada0ba8ff890cac7adbb77e708d') in 0.0071352 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002423 seconds.
+  path: Assets/PeppersGhostStage/ThirdParty/NeoLowMan/README.md
+  artifactKey: Guid(975a3d3bf1bb843188a15fe762649e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PeppersGhostStage/ThirdParty/NeoLowMan/README.md using Guid(975a3d3bf1bb843188a15fe762649e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '230bf1de48ea959b710e7988c067192b') in 0.0005383 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001256 seconds.
+  path: Assets/PeppersGhostStage/Base/Scripts
+  artifactKey: Guid(b7a404d935011445c8b95e178cc2baaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PeppersGhostStage/Base/Scripts using Guid(b7a404d935011445c8b95e178cc2baaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad3ec2c7a9896345ab6a994b93e51254') in 0.0002295 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001823 seconds.
+  path: Assets/PeppersGhostStage/Base/Materials/PlasticFoil.mat
+  artifactKey: Guid(f446c5c5988ab40a2bbe8cbf0c8e668d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PeppersGhostStage/Base/Materials/PlasticFoil.mat using Guid(f446c5c5988ab40a2bbe8cbf0c8e668d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d2fee92311c4dc3e69cd3b9dd686450') in 0.0067316 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001507 seconds.
+  path: Assets/PeppersGhostStage
+  artifactKey: Guid(636ff402c3c9c441c8d8db1a0b8c3bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PeppersGhostStage using Guid(636ff402c3c9c441c8d8db1a0b8c3bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a09f0b1788ac1581768a23cd58885fd') in 0.0002235 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001850 seconds.
+  path: Assets/PeppersGhostStage/Base/Materials/ProjectionCanvas.mat
+  artifactKey: Guid(8d3aff967c766412e92007976e8122a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PeppersGhostStage/Base/Materials/ProjectionCanvas.mat using Guid(8d3aff967c766412e92007976e8122a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f29cfa31e1f6084789cf3474f833fe8e') in 0.007312 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002065 seconds.
+  path: Assets/PeppersGhostStage/Base/ProBuilder/Builds.unity
+  artifactKey: Guid(07ba4abadb4234b4b81cdda4b48a0cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PeppersGhostStage/Base/ProBuilder/Builds.unity using Guid(07ba4abadb4234b4b81cdda4b48a0cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f949d52e04d8825b4e48453948d3a091') in 0.0002763 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001837 seconds.
+  path: Assets/PeppersGhostStage/Base/AutoDemoCamera.cs
+  artifactKey: Guid(fc493fbb78ec94cbaa079c08a7895b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PeppersGhostStage/Base/AutoDemoCamera.cs using Guid(fc493fbb78ec94cbaa079c08a7895b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f98d8ac8cd6168424b9571c1440b189a') in 0.0002347 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001824 seconds.
+  path: Assets/PeppersGhostStage/Base/ProBuilder/Lamp.prefab
+  artifactKey: Guid(41af5bc2fb9b7024c899f45076abde9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PeppersGhostStage/Base/ProBuilder/Lamp.prefab using Guid(41af5bc2fb9b7024c899f45076abde9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '09a69d1a321b822f4d950bed36b3b6b0') in 0.0013963 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002246 seconds.
+  path: Assets/PeppersGhostStage/Base/PeppersGhostStage.dae
+  artifactKey: Guid(efe43a51c3af84a1297ba75fcc590be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PeppersGhostStage/Base/PeppersGhostStage.dae using Guid(efe43a51c3af84a1297ba75fcc590be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '23c3f3bb81b3eaa9770001ab9d73b869') in 0.0323542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 291
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001438 seconds.
+  path: Assets/PeppersGhostStage/Base/Scripts/Resources
+  artifactKey: Guid(190466a161aa1481bb131bbe3c01bdba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PeppersGhostStage/Base/Scripts/Resources using Guid(190466a161aa1481bb131bbe3c01bdba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd013c4612807b1e50259e77d870ea0de') in 0.000265 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
